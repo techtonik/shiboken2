@@ -11,5 +11,4 @@ build_script:
   - cmd: set QTDIR=C:\Qt\5.5\msvc2013_64
   - cmd: set PATH=%PATH%;%QTDIR%\bin
   - cmd: qmake --version
-  - cmd: cd C:\projects\pyside2-setup
-  - cmd: C:\Python27-x64\python.exe setup.py install --openssl=C:\OpenSSL-Win32
+  - cmd: cmake .
